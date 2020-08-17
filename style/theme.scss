@@ -75,12 +75,12 @@ $spacers: map-merge(
 
 // FONTS
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
-$font-family-sans-serif: "Roboto Mono", monospace, sans-serif,
-  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-serif: "Roboto Mono", monospace, serif;
-$font-family-brand: "Roboto Mono", monospace, sans-serif;
+$font-family-sans-serif: "Lato", monospace, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-serif: "Lato", monospace, serif;
+$font-family-brand: "Lato", monospace, sans-serif;
 
 $enable-responsive-font-sizes: true;
 
