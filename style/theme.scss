@@ -9,7 +9,6 @@ $gray-500: #666877;
 $gray-600: #52535f;
 $gray-700: #3d3e47;
 $gray-800: #292a30;
-$gray-900: #141518;
 
 $blue-050: #dae8f4;
 $blue-100: #bfccf5;
@@ -33,12 +32,13 @@ $red-700: #770d26;
 $red-800: #500416;
 $red-900: #290505;
 
-$primary: $gray-600;
+$primary: #656554;
 $secondary: $gray-700;
 $success: $blue-600;
 $danger: $red-600;
 $light: $gray-200;
 $dark: $gray-800;
+$orange: #a7810c;
 
 $theme-colors: ();
 $theme-colors: map-merge(
@@ -49,6 +49,7 @@ $theme-colors: map-merge(
     "danger": $danger,
     "light": $light,
     "dark": $dark,
+    "orange": $orange,
   ),
   $theme-colors
 );
@@ -214,10 +215,10 @@ $form-validation-states: map-merge(
 
 // CARDS
 
-$card-border-width: 4px;
+$card-border-width: 0px;
 $card-spacer-y: map-get($spacers, 4);
 $card-spacer-x: map-get($spacers, 4);
-// $card-bg: $lighterbackground;
+$card-border-color: $primary;
 
 // CUES
 $paragraph-margin-bottom: 0;
