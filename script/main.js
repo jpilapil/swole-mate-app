@@ -192,24 +192,6 @@ function sendIt() {
        Number of days they go to the gym: ${daysInGym} \n
        Additional comments: ${comments}
        `
-
-      //   userPhone +
-      //   " " +
-      //   dyelRadio +
-      //   " " +
-      //   squatRadio +
-      //   " " +
-      //   favDayRadio +
-      //   " " +
-      //   igRadio +
-      //   " " +
-      //   gymMemberships +
-      //   " " +
-      //   favLift +
-      //   " " +
-      //   favSupplement +
-      //   " " +
-      //   daysInGym
     );
   }
 }
