@@ -11570,6 +11570,10 @@ h1 {
   color: #a7810c;
 }
 
+i:hover {
+  cursor: pointer;
+}
+
 body {
   background-color: #515143;
 }
